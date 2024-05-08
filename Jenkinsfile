@@ -12,7 +12,7 @@
                 checkout scm
             }
         }
-    }
+    
     stages {
         stage("Hello") {
             steps {
@@ -20,4 +20,5 @@
             }
         }
     }
+}
 }
